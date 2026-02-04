@@ -9,8 +9,28 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 266.0, 101.0, 283.0, 357.0 ],
+        "rect": [ 63.0, 95.0, 422.0, 434.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-5",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 5.0, 153.0, 117.0, 22.0 ],
+                    "text": "lg.random.notes.v01"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-4",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 10.0, 42.0, 79.0, 22.0 ],
+                    "text": "lg.midi.in.v01"
+                }
+            },
             {
                 "box": {
                     "id": "obj-3",
@@ -27,7 +47,7 @@
                     "maxclass": "newobj",
                     "numinlets": 0,
                     "numoutlets": 0,
-                    "patching_rect": [ 2.0, 38.0, 97.0, 22.0 ],
+                    "patching_rect": [ 1.0, 122.0, 97.0, 22.0 ],
                     "text": "jp.sound.out.v01"
                 }
             },
@@ -47,8 +67,19 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 562.0, 135.0, 691.0, 506.0 ],
+                        "rect": [ 562.0, 134.0, 691.0, 506.0 ],
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-3",
+                                    "linecount": 2,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 56.0, 311.0, 239.0, 33.0 ],
+                                    "text": "option click on an object to bring up its manual help file"
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-19",
@@ -56,7 +87,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 339.0, 161.0, 150.0, 114.0 ],
+                                    "patching_rect": [ 339.0, 161.0, 153.0, 114.0 ],
                                     "text": "Shift command e - can be used to take many objects and turn them all into their own subpatch. You can just take any large mess of objects, and box them into their own subpatch for ease"
                                 }
                             },
@@ -67,7 +98,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 43.0, 150.0, 150.0, 127.0 ],
+                                    "patching_rect": [ 43.0, 150.0, 153.0, 127.0 ],
                                     "text": "This is an example of a subpatch. It is loaded into an opject box with the name \"p\". It's therefore local. When you type something into a p subpatcher, it's only accessible from the parent patchc"
                                 }
                             },

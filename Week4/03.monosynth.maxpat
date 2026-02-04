@@ -9,8 +9,32 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 472.0, 137.0, 630.0, 550.0 ],
+        "rect": [ 459.0, 173.0, 630.0, 550.0 ],
         "boxes": [
+            {
+                "box": {
+                    "color": [ 0.317647, 0.654902, 0.976471, 1.0 ],
+                    "id": "obj-22",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 718.6991865634918, 103.0, 91.0, 22.0 ],
+                    "text": "receive velocity"
+                }
+            },
+            {
+                "box": {
+                    "color": [ 0.0, 0.533333, 0.168627, 1.0 ],
+                    "id": "obj-2",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 638.2113817334175, 103.0, 76.0, 22.0 ],
+                    "text": "receive pitch"
+                }
+            },
             {
                 "box": {
                     "format": 6,
@@ -205,7 +229,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 748.3516849279404, 73.62637722492218, 149.99999463558197, 60.0 ],
+                    "patching_rect": [ 841.4634141325951, 51.21951216459274, 149.99999463558197, 60.0 ],
                     "text": "kslider @mode 2\n-sends note off as well as note on\n"
                 }
             },
@@ -444,6 +468,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-20", 0 ],
+                    "source": [ "obj-2", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-31", 1 ],
                     "order": 1,
                     "source": [ "obj-20", 1 ]
@@ -460,6 +490,12 @@
                     "destination": [ "obj-59", 0 ],
                     "order": 0,
                     "source": [ "obj-20", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-20", 1 ],
+                    "source": [ "obj-22", 0 ]
                 }
             },
             {
@@ -604,6 +640,14 @@
         ],
         "parameters": {
             "obj-3": [ "live.gain~", "live.gain~", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
