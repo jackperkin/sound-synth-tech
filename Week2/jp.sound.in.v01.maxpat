@@ -9,8 +9,181 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 117.0, 95.0, 1234.0, 625.0 ],
+        "rect": [ 528.0, 163.0, 916.0, 471.0 ],
         "boxes": [
+            {
+                "box": {
+                    "clipheight": 91.0,
+                    "data": {
+                        "clips": [
+                            {
+                                "absolutepath": "/Users/jackperkin/Library/Messages/Attachments/9a/10/0C4E6519-8D71-48CC-8BAE-1E0858557474/2026-02-23 16 43 22 - JP.m4a",
+                                "filename": "2026-02-23 16 43 22 - JP.m4a",
+                                "filekind": "audiofile",
+                                "id": "u372010632",
+                                "loop": 0,
+                                "content_state": {                                }
+                            }
+                        ]
+                    },
+                    "id": "obj-27",
+                    "maxclass": "playlist~",
+                    "mode": "basic",
+                    "numinlets": 1,
+                    "numoutlets": 5,
+                    "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 805.0, 352.0, 150.0, 92.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 801.0, 402.0, 150.0, 92.0 ],
+                    "quality": "basic",
+                    "saved_attribute_attributes": {
+                        "candicane2": {
+                            "expression": ""
+                        },
+                        "candicane3": {
+                            "expression": ""
+                        },
+                        "candicane4": {
+                            "expression": ""
+                        },
+                        "candicane5": {
+                            "expression": ""
+                        },
+                        "candicane6": {
+                            "expression": ""
+                        },
+                        "candicane7": {
+                            "expression": ""
+                        },
+                        "candicane8": {
+                            "expression": ""
+                        }
+                    }
+                }
+            },
+            {
+                "box": {
+                    "clipheight": 91.0,
+                    "data": {
+                        "clips": [
+                            {
+                                "absolutepath": "/Users/jackperkin/Library/Messages/Attachments/66/06/E081B97C-6F77-444A-8999-34492C74FAE1/2026-02-23 16 43 03 - JP.m4a",
+                                "filename": "2026-02-23 16 43 03 - JP.m4a",
+                                "filekind": "audiofile",
+                                "id": "u660010624",
+                                "loop": 0,
+                                "content_state": {                                }
+                            }
+                        ]
+                    },
+                    "id": "obj-22",
+                    "maxclass": "playlist~",
+                    "mode": "basic",
+                    "numinlets": 1,
+                    "numoutlets": 5,
+                    "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 631.0, 359.0, 150.0, 92.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 665.0, 407.0, 150.0, 92.0 ],
+                    "quality": "basic",
+                    "saved_attribute_attributes": {
+                        "candicane2": {
+                            "expression": ""
+                        },
+                        "candicane3": {
+                            "expression": ""
+                        },
+                        "candicane4": {
+                            "expression": ""
+                        },
+                        "candicane5": {
+                            "expression": ""
+                        },
+                        "candicane6": {
+                            "expression": ""
+                        },
+                        "candicane7": {
+                            "expression": ""
+                        },
+                        "candicane8": {
+                            "expression": ""
+                        }
+                    }
+                }
+            },
+            {
+                "box": {
+                    "clipheight": 91.0,
+                    "data": {
+                        "clips": [
+                            {
+                                "absolutepath": "/Users/jackperkin/Library/Messages/Attachments/23/03/26C1F07A-91E8-4D37-95F5-38D1D2199886/2026-02-23 16 42 41 - JP.m4a",
+                                "filename": "2026-02-23 16 42 41 - JP.m4a",
+                                "filekind": "audiofile",
+                                "id": "u172010377",
+                                "loop": 0,
+                                "content_state": {                                }
+                            }
+                        ]
+                    },
+                    "id": "obj-17",
+                    "maxclass": "playlist~",
+                    "mode": "basic",
+                    "numinlets": 1,
+                    "numoutlets": 5,
+                    "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 460.0, 359.0, 150.0, 92.0 ],
+                    "quality": "basic",
+                    "saved_attribute_attributes": {
+                        "candicane2": {
+                            "expression": ""
+                        },
+                        "candicane3": {
+                            "expression": ""
+                        },
+                        "candicane4": {
+                            "expression": ""
+                        },
+                        "candicane5": {
+                            "expression": ""
+                        },
+                        "candicane6": {
+                            "expression": ""
+                        },
+                        "candicane7": {
+                            "expression": ""
+                        },
+                        "candicane8": {
+                            "expression": ""
+                        }
+                    }
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-12",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 427.0, 297.0, 150.0, 47.0 ],
+                    "text": "find 3 sounds and put them in the playlist thing\n"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-5",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 355.0, 19.0, 35.0, 22.0 ],
+                    "text": "clear"
+                }
+            },
             {
                 "box": {
                     "id": "obj-28",
@@ -77,18 +250,28 @@
             },
             {
                 "box": {
+                    "clipheight": 91.0,
                     "data": {
-                        "clips": []
+                        "clips": [
+                            {
+                                "absolutepath": "/Users/jackperkin/Library/Messages/Attachments/23/03/26C1F07A-91E8-4D37-95F5-38D1D2199886/2026-02-23 16 42 41 - JP.m4a",
+                                "filename": "2026-02-23 16 42 41 - JP.m4a",
+                                "filekind": "audiofile",
+                                "id": "u417010096",
+                                "loop": 0,
+                                "content_state": {                                }
+                            }
+                        ]
                     },
                     "id": "obj-16",
                     "maxclass": "playlist~",
-                    "mode": 0,
+                    "mode": "basic",
                     "numinlets": 1,
                     "numoutlets": 5,
                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                     "parameter_enable": 0,
                     "patching_rect": [ 428.0, 31.0, 150.0, 92.0 ],
-                    "quality": 0,
+                    "quality": "basic",
                     "saved_attribute_attributes": {
                         "candicane2": {
                             "expression": ""
@@ -342,6 +525,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-16", 0 ],
+                    "source": [ "obj-5", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-19", 3 ],
                     "source": [ "obj-7", 0 ]
                 }
@@ -358,7 +547,6 @@
                     "source": [ "obj-9", 0 ]
                 }
             }
-        ],
-        "autosave": 0
+        ]
     }
 }
