@@ -13,6 +13,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-34",
+                    "linecount": 18,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 31.0, 625.0, 150.0, 248.0 ],
+                    "text": "Weekend:\n\n1. make a new version of this patch w differences:\n\n- use own values for pitch reservoirs (scales) \n\n- own values for durations\n\n- own weights\n\n-make it 3 voices\n\n-use your generated music to drive a poly instead of simple midi playback"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-30",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -164,11 +175,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 397.5, 479.16664838790894, 126.0, 22.0 ],
-                    "saved_attribute_attributes": {
-                        "color": {
-                            "expression": "themecolor.live_control_selection_variant"
-                        }
-                    },
                     "text": "jp.make-a-melody.v02"
                 }
             },
@@ -192,11 +198,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 262.8714285714285, 479.16664838790894, 126.0, 22.0 ],
-                    "saved_attribute_attributes": {
-                        "color": {
-                            "expression": "themecolor.live_control_selection_variant"
-                        }
-                    },
                     "text": "jp.make-a-melody.v02"
                 }
             },
