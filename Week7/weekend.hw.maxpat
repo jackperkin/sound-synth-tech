@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 107.0, 159.0, 869.0, 568.0 ],
+        "rect": [ 552.0, 190.0, 869.0, 568.0 ],
         "boxes": [
             {
                 "box": {
@@ -62,7 +62,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1044.285739183426, 901.4285929203033, 153.0, 248.0 ],
+                    "patching_rect": [ 1044.285739183426, 901.4285929203033, 155.0, 248.0 ],
                     "text": "I was slightly confused about how to go about using the generated music to drive a poly synth. I essentialy took the custom poly~ I made for the first assignment to give it my own personal flare, and I tried to recreate the other objects / cables associated as well. It does successfully play music which is good, but it might be too far from a classic midi to be technically \"musical.\" Yet nonetheless I think this was a fun assignment!"
                 }
             },
@@ -200,28 +200,6 @@
             },
             {
                 "box": {
-                    "id": "obj-41",
-                    "maxclass": "number",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "bang" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 570.129864692688, 367.5, 50.0, 22.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-30",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 558.4415531158447, 415.58441162109375, 29.5, 22.0 ],
-                    "text": "t i i"
-                }
-            },
-            {
-                "box": {
                     "color": [ 0.0, 0.933333, 1.0, 1.0 ],
                     "id": "obj-11",
                     "maxclass": "newobj",
@@ -347,10 +325,10 @@
                     "id": "obj-28",
                     "maxclass": "newobj",
                     "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 363.54165279865265, 392.7083183526993, 29.5, 22.0 ],
-                    "text": "t i i"
+                    "numoutlets": 3,
+                    "outlettype": [ "int", "int", "int" ],
+                    "patching_rect": [ 363.54165279865265, 392.7083183526993, 40.0, 22.0 ],
+                    "text": "t i i i"
                 }
             },
             {
@@ -815,6 +793,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-11", 1 ],
+                    "source": [ "obj-28", 2 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-24", 1 ],
                     "source": [ "obj-28", 1 ]
                 }
@@ -839,18 +823,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-11", 1 ],
-                    "source": [ "obj-30", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-24", 1 ],
-                    "source": [ "obj-30", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-29", 0 ],
                     "source": [ "obj-32", 0 ]
                 }
@@ -864,14 +836,6 @@
             {
                 "patchline": {
                     "destination": [ "obj-17", 0 ],
-                    "order": 1,
-                    "source": [ "obj-35", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-41", 0 ],
-                    "order": 0,
                     "source": [ "obj-35", 0 ]
                 }
             },
@@ -885,12 +849,6 @@
                 "patchline": {
                     "destination": [ "obj-7", 1 ],
                     "source": [ "obj-4", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-30", 0 ],
-                    "source": [ "obj-41", 0 ]
                 }
             },
             {
@@ -946,6 +904,14 @@
         ],
         "parameters": {
             "obj-45": [ "live.gain~", "live.gain~", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
