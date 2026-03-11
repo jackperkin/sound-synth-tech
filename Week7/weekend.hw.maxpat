@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 552.0, 190.0, 869.0, 568.0 ],
+        "rect": [ 502.0, 145.0, 869.0, 568.0 ],
         "boxes": [
             {
                 "box": {
@@ -904,6 +904,14 @@
         ],
         "parameters": {
             "obj-45": [ "live.gain~", "live.gain~", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

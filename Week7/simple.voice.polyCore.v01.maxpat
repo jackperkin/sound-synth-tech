@@ -146,8 +146,8 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 314.8148399591446, 446.91361594200134, 92.0, 22.0 ],
-                    "text": "s #o-mod.depth"
+                    "patching_rect": [ 314.8148399591446, 446.91361594200134, 105.0, 22.0 ],
+                    "text": "s #0-mod.depth"
                 }
             },
             {
@@ -156,8 +156,8 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 204.3503519296646, 428.20727157592773, 89.0, 22.0 ],
-                    "text": "s #o-modulator"
+                    "patching_rect": [ 204.3503519296646, 428.20727157592773, 102.0, 22.0 ],
+                    "text": "s #0-modulator"
                 }
             },
             {
@@ -166,8 +166,8 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 104.3503532409668, 437.0370719432831, 69.0, 22.0 ],
-                    "text": "s #o-carrier"
+                    "patching_rect": [ 104.3503532409668, 437.0370719432831, 83.0, 22.0 ],
+                    "text": "s #0-carrier"
                 }
             },
             {
@@ -233,8 +233,8 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 320.5402238368988, 486.07594299316406, 90.0, 22.0 ],
-                    "text": "r #o-mod.depth"
+                    "patching_rect": [ 320.5402238368988, 486.07594299316406, 103.0, 22.0 ],
+                    "text": "r #0-mod.depth"
                 }
             },
             {
@@ -265,8 +265,8 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 205.3503519296646, 466.66670393943787, 87.0, 22.0 ],
-                    "text": "r #o-modulator"
+                    "patching_rect": [ 205.3503519296646, 466.66670393943787, 100.0, 22.0 ],
+                    "text": "r #0-modulator"
                 }
             },
             {
@@ -301,8 +301,8 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 105.3503532409668, 473.4177153110504, 67.0, 22.0 ],
-                    "text": "r #o-carrier"
+                    "patching_rect": [ 105.3503532409668, 473.4177153110504, 81.0, 22.0 ],
+                    "text": "r #0-carrier"
                 }
             },
             {
@@ -376,6 +376,10 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 233.3333294391632, 764.3678033351898, 35.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
                     "text": "out 2"
                 }
             },
@@ -386,6 +390,10 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 188.50574398040771, 764.3678033351898, 35.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
                     "text": "out 1"
                 }
             },
@@ -451,6 +459,10 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 274.71263909339905, 764.3678033351898, 42.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
                     "text": "out~ 1"
                 }
             },
@@ -462,6 +474,10 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 192.0, 21.0, 28.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
                     "text": "in 1"
                 }
             },
